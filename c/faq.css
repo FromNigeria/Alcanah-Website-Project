@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+.plus {
+ color:#546e98;
+}
+.question,h1{
+  color:#666;
+}
+h1 {
+ font-family:Lato,sans-serif;
+ font-weight:700;
+ font-style:normal;
+ font-size:32px
+}
+.content {
+ width:90%;
+ margin:0 auto;
+ padding:0px 50px 0 0;
+}
+.centerplease {
+ margin:0 auto;
+ max-width:270px;
+ font-size:40px;
+}
+.answers,.question {
+ margin:0;
+ position:relative;
+}
+.question {
+ background:#fff;
+ padding:10px 10px 10px 50px;
+ display:block;
+ width:100%;
+ cursor:pointer;
+}
+.answers {
+ font-weight:300;
+ background:#f2f2f2;
+ padding:0 15px;
+ height:0;
+ overflow:hidden;
+ z-index:-1;
+ opacity:0;
+ -webkit-transition:.7s ease;
+ -moz-transition:.7s ease;
+ -o-transition:.7s ease;
+ transition:.7s ease;
+}
+.questions:checked~.answers {
+ height:auto;
+ opacity:1;
+ padding:15px;
+}
+.plus {
+ position:absolute;
+ margin-left:10px;
+ margin-top:5px;
+ z-index:5;
+ font-size:2em;
+ line-height:100%;
+ -webkit-user-select:none;
+ -moz-user-select:none;
+ -ms-user-select:none;
+ -o-user-select:none;
+ user-select:none;
+ -webkit-transition:.3s ease;
+ -moz-transition:.3s ease;
+ -o-transition:.3s ease;
+ transition:.3s ease
+}
+.questions:checked~.plus {
+ -webkit-transform:rotate(45deg);
+ -moz-transform:rotate(45deg);
+ -o-transform:rotate(45deg);
+ transform:rotate(45deg);
+}
+.questions {
+ display:none;
+}
+blockquote {
+ background:#f9f9f9;
+ border-left:10px solid #ccc;
+ margin:1.5em 10px;
+ padding:.5em 10px;
+ quotes:"\201C""\201D""\2018""\2019"
+}
+blockquote:before {
+ color:#ccc;
+ content:open-quote;
+ font-size:4em;
+ line-height:.1em;
+ margin-right:.25em;
+ vertical-align:-.4em;
+}
+blockquote p {
+ display:inline;
+}

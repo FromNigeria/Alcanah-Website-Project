@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114309142-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114309142-1');
+</script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Bootstrap Website Templates">
+    
+    <link rel="shortcut icon" href="images/alca.png" type="image/x-icon" />
+    <title>Our Products | Alcanah Limited </title>
+    <!-- Animate.css -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Owl Carousel  -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/jquery.lightbox.min.css">
+
+    <!-- Theme CSS -->
+    <link href="cs/font-awesome.min.css" rel="stylesheet">
+    <link href="cs/animate.css" rel="stylesheet">
+    <link href="cs/bootsnav.css" rel="stylesheet">
+    <link rel="stylesheet" href="cs/swipebox.css">
+    <link rel="stylesheet" href="css/charity.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="c/clients.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
+
+    <style>
+   *{
+  margin:0px;
+  padding:0px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Source Serif Pro', serif;
+}
+
+.buttons{
+    font-size: 22px;
+    margin-top: 2%;
+    margin-left: 2.2%;
+}
+
+.fa:hover{
+    color: darkcyan;
+}
+
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+}
+/*CSS Grid*/
+.section-grid{
+   display: flex; 
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.grid-prod{
+  flex: 1 1 auto;
+  display: flex; 
+  flex-flow: row wrap;  
+}
+.prod-grid{
+  flex: 1 1 25%;
+  margin:2%;
+  padding:12px;
+  border: 2px solid #000;
+}
+
+.prod-grid img{
+  width:100%;
+}
+h3, p{
+  
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    background: darkcyan;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: right;
+    margin: 10px; 
+    letter-spacing: 1px;
+    display: inline-block;
+}
+.btn:hover{
+    background: white;
+    border: 2px solid darkcyan;
+    border-radius: 6px;
+    color: darkcyan;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    position: right;
+    margin: 10px; 
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: inline-block;
+}
+button{
+  float: right;
+}
+
+/*CSS List*/
+.section-list{
+   display: flex; 
+   padding: 2% 4%; 
+}
+table {
+  width: 100%;
+  margin: 10px 10px;
+  border:2px solid #000;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table tr td {
+  padding: 10px;
+  border-top: 2px solid #000;
+}
+tr td img{
+  width:100%;
+}
+.btn-list{
+    background: darkcyan;
+    border: 1px solid darkcyan;
+    border-radius: 6px;
+    color: white;
+    font-size: 22px;
+    width: 200px;
+    height: 40px;
+    position: right;
+    margin: 10px; 
+    margin-top: 10%;
+    letter-spacing: 1px;
+    display: inline-block;
+    
+}
+.btn-list:hover{
+    background: white;
+    border: 2px solid darkcyan;
+    
+    color: darkcyan;
+
+    margin: 10%; 
+
+}
+button{
+  float: right;
+}
+
+@media (min-width : 320px) and (max-width : 480px) { 
+  .section-list, .buttons{
+    display: none;
+  }
+}
+
+/**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+	padding: 60px 0;
+}
+section .section-title{
+	text-align:center;
+	color:#262626;
+	margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.title {
+    text-align: center;
+    color: #C2A878;
+}
+
+.text{
+    padding: 10px;
+    font-size: 18px;
+    color: #14281D;
+}
+
+.ellipsis{color: #14281D;}
+.more, .less{color: #355834;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.fa{
+    margin: 0 5px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    background-color: white;
+    margin: 10px;
+    float: right;
+    margin-left: 0 auto;
+    
+}
+</style>
+
+</head>
+
+<body id="page-top">
+
+    <div id="preloader">
+        <div class="page-loader" id="page-loader">
+        <div class="page-loader-body">
+        <svg width="40" height="40" viewbox="0 0 40 40">
+        <polygon class="rect" points="0 0 0 40 40 40 40 0"></polygon>
+        </svg>
+       </div>
+       </div>
+   </div>
+
+    <div class="topbar1">
+        <div class="container" style="font-family:Segoe UI;">
+        <div class="row"> 
+        <div class="bar-phonee">
+        <i class="fa fa-volume-control-phone"></i> <span style="font-family:Georgia; text-transform:uppercase;"><span>Call</span> Us :</span> <strong style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+        1px;font-size: 16px; font-weight: 500;
+        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+        normal;font-variant:normal;text-transform:none;">0907 030 6962</strong>
+        </div>
+        <div class="bar-mail1">
+        <i class="fa fa-envelope"></i> <span style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+        1px;font-size: 16px; font-weight: 500;
+        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+        normal;font-variant:normal;text-transform:none;">Mail Us :</span> <strong style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+        1px;font-size: 16px; font-weight: 500;
+        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+        normal;font-variant:normal;text-transform:none;">info@alcanah.com</strong>
+        </div>
+        <div id="clockDisplay" style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+        1px;font-size: 16px; font-weight: 500;
+        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+        normal;font-variant:normal;text-transform:none;" class="bar-mail1">
+        <i></i> <span></span> <strong></strong>
+        </div>
+        <div class="header-social1">
+        <a class="facebook" href="https://web.facebook.com/zee.blacksoap/" title="facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i>  </a>
+        <a class="tweets" href="#" title="twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i>  </a>
+        <a class="linkedin" href="#" title="linkedin" target="_blank" rel="nofollow"><i class="fa fa-linkedin"></i>  </a>
+        
+        </div>
+        </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+            <div class="container">
+            <div class="row"> 
+            <!-- <div class="attr-nav">
+            <a class="sponsor-button" href="sponsor-a-child.html">sponsor a child</a>
+            </div> -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+            <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand logo" href="index.html"><img src="images/zeelogo.jpg"
+                  class="img-responsive" /></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li><a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                    1px;font-size: 16px; font-weight: 500;
+                    text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                    normal;font-variant:normal;text-transform:none;" href="about.html">About us</a></li>
+                    <li class="dropdown">
+                        <a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                        1px;font-size: 16px; font-weight: 500;
+                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                        normal;font-variant:normal;text-transform:none;"  data-toggle="dropdown" role="button" 
+                         aria-expanded="false">Products<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a style="font-family:Bree Serif; text-decoration: none;letter-spacing:
+                        1px;font-size: 16px; font-weight: 500;
+                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                        normal;font-variant:normal;color:#262626;" href="washing-and-bathing.html">Washing and Bathing</a></li>
+                        <li><a style="font-family:Bree Serif; color:#262626; letter-spacing:
+                        1px;font-size: 16px; font-weight: 500;
+                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                        normal;font-variant:normal;text-transform:none;" href="african-zee-black-soap.html">Zee African Black Soap</a></li>
+                        <li><a style="font-family:Bree Serif; color:#262626;letter-spacing:
+                        1px;font-size: 16px; font-weight: 500;
+                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                        normal;font-variant:normal; color:#262626;" href="needz-extra-luxury-soap.html">Needz Extra-Luxury Soap</a></li>
+                        <li><a style="font-family:Bree Serif; text-decoration: none;letter-spacing:
+                        1px;font-size: 16px; font-weight: 500;
+                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                        normal;font-variant:normal;color:#262626;" href="onatur-soap.html">Onatur Soap</a></li>
+                        <li><a style="font-family:Bree Serif; text-decoration: none;letter-spacing:
+                        1px;font-size: 16px; font-weight: 500;
+                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                        normal;font-variant:normal;color:#262626;" href="skin-care-cream.html">Skin Care Creams</a></li>
+                        </ul>
+                    </li>
+                   <li><a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                    1px;font-size: 16px; font-weight: 500;
+                   text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                   normal;font-variant:normal;text-transform:none;" href="ingredients.html">Ingredients</a></li>
+                  <li><a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                  1px;font-size: 16px; font-weight: 500;
+                   text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                   normal;font-variant:normal;text-transform:none;" href="skincare.html">Skincare Tips</a></li>
+                  <li><a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                    1px;font-size: 16px; font-weight: 500;
+                   text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                   normal;font-variant:normal;text-transform:none;" href="shops.html">Distributors</a></li>
+                    <li><a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                    1px;font-size: 16px; font-weight: 500;
+                   text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                   normal;font-variant:normal;text-transform:none;" href="faq.html">Faq</a></li>
+                    <li><a style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                    1px;font-size: 16px; font-weight: 500;
+                   text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                   normal;font-variant:normal;text-transform:none;" href="contact.php">Contact Us</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            </nav>
+
+ <!-- Breadcrumbs-->
+ <section class="breadcrumbs-custom bg-image bg-image-dark" style="background-image: url(images/act.jpg);">
+    <div class="container">
+      <h1 style class="breadcrumbs-custom__title">Our Products</h1>
+      <ul class="breadcrumbs-custom__path">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">Our Products</li>
+      </ul>
+    </div>
+  </section>
+  
+<div class="container">
+          <!--Product Grid-->
+          <div id="div1">
+            <section class="section-grid">
+            <div class="grid-prod">
+             <div class="prod-grid"><img src="images/img_bg_1.jpg" alt="kalita">
+               <h3 style="text-align:center; font-family: Open Sans; font-size:16px; font-weight:600; font-style:normal;">Zee Black Soap</h3>
+                    <p style="text-align:center;font-family:Open Sans; font-style:normal;  color:#262626;">Shea Butter, Aloe Vera, Native Honey </p>
+                    <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Natural Skin Cleanser</p>
+                    <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Gentle Exfoliation</p>
+            <a href="contact.php" class="button">Weight in gram: 85<span style="text-transform:none;">g</span> </a>
+             </div>
+             <div class="prod-grid"><img src="images/withshea.jpg" alt="kalita">
+               <h3 style="text-align:center; font-family: Open Sans; font-size:16px; font-weight:600; font-style:normal;">Needz Extra-Luxury Soap</h3>
+                    <p style="text-align:center;font-family:Abel-Regular; color:#262626;">Needz Soap With Shea Butter</p>
+                    <p style="text-align:center; font-family:Georgia; color:#262626;">Natural Skin Cleanser</p>
+                    <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Gentle Exfoliation</p>
+            <a href="contact.php" class="button">Weight in gram: 75<span style="text-transform:none;">g</span> </a>
+             </div>
+              <div class="prod-grid"><img src="images/withaloe.jpg" alt="kalita">
+               <h3 style="text-align:center; font-family: Open Sans; font-size:16px; font-weight:600; font-style:normal;">Needz Extra-Luxury Soap</h3>
+                <p style="text-align:center; color:#262626;">With Aloe Vera & Shea Butter</p>
+                <p style="text-align:center; font-family:Georgia; color:#262626">Natural Skin Cleanser</p>
+                <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Gentle Exfoliation</p>
+            <a href="contact.php" class="button">Weight in gram: 75<span style="text-transform:none;">g</span> </a>
+             </div>
+              <div class="prod-grid"><img src="images/withhoneysh.jpg" alt="kalita">
+               <h3 style="text-align:center; font-family: Open Sans; font-size:16px; 
+               font-weight:600; font-style:normal;">Needz Extra-Luxury Soap</h3>
+                    <p style="text-align:center;color:#333;">With Native Honey & Shea Butter</p>
+                    <p style="text-align:center; color:#333;">Natural Skin Cleanser</p>
+                    <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Gentle Exfoliation</p>
+            <a href="contact.php" class="button">Weight in gram: 75<span style="text-transform:none;">g</span></a>
+             </div>
+             <div class="prod-grid"><img src="images/zee.jpg" alt="kalita">
+                <h3 style="text-align:center; font-family: Open Sans; font-size:16px; font-weight:600; font-style:normal;">Zee Black Soap Per Carton</h3>
+                     <p style="text-align:center; color:#333;"><strong >Content</strong>: 6 by 12</p>
+                     <p style="text-align:center; color:#333;">Natural Skin Cleanser</p>
+                     <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Gentle Exfoliation</p>
+                     <a href="contact.php" style="font-family:Georgia; text-transform:capitalize;" class="button">72 <strong style="text-transform:capitalize;">pieces</strong></a>
+              </div>
+              <div class="prod-grid"><img src="images/cartonneedz.jpg" style="height:auto;" alt="kalita">
+                <h3 style="text-align:center; font-family: Open Sans; font-size:16px; font-weight:600; font-style:normal;">Needz Extra-Luxury Soaps Per Carton</h3>
+                <p style="text-align:center; color:#262626;">Content</strong>: 6 by 12</p>
+                <p style="text-align:center; color:#262626;">Natural Skin Cleanser</p>
+                <p style="text-align:center;font-family:Abel-Regular;  color:#262626;">Gentle Exfoliation</p>
+				<a href="contact.php" class="button">72 <strong>pieces</strong></a>
+              </div>
+            </div>
+             </section>
+          </div>
+        </div>
+
+        <section id="what-we-do">
+                <div class="container-fluid">
+                    <!-- <h2 class="section-title mb-2 h1">Product Info</h2> -->
+                    <div class="row mt-5">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-block block-3">
+                                    <h3 class="card-title">Zee Black Soap</h3>
+                                    <p class="card-text">Zee Black soap is specially formulated from finest natural ingredients and handmade in small batches and cured for 22 days.
+                                    <br/><strong>Ingredients:</strong>Native Black Soap base, palm kernel oil, Shea Butter, Cocoa Pod & palm Bunch Ash Solution
+                                    ,Camwood Extract(Osun) Native Honey, Aloe Vera, Aqua, Fragrance.
+                                    </p>
+                                    <a href="ingredients.html" title="Read more" class="read-more" >learn more<i class="fa fa-angle-double-right ml-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-block block-3">
+                                    <h3 class="card-title">Needz With Shea Butter</h3>
+                                    <p class="card-text">Moisturize, Nourish & Protect the skin <br/>
+                                        Needz is formulated from finest vegetable oils 
+                                        and nourishing Raw SHEA BUTTER known for ist amazing healing properties.
+                                        <br/><strong>Ingredients:</strong>Soap base, Raw Shea Butter, Aqua,
+                                        Pigment, Fragrances.
+                                    </p>
+                                    <a href="ingredients.html" title="Read more" class="read-more" >learn more<i class="fa fa-angle-double-right ml-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                            <div class="card">
+                                <div class="card-block block-3">
+                                    <h3 class="card-title">Needz With Aloe Vera & Honey</h3>
+                                    <p class="card-text">Enriched with <strong>Native Honey </strong>Needz is formulated from finest vegetable oils 
+                                            and nourishing Raw SHEA BUTTER known for ist amazing healing properties.
+                                        <br/><strong>Ingredients:</strong>Soap base, Raw Shea Butter, Aloe Vera, Aqua, Pigment, Fragrances
+                                        </p>
+                                    <a href="ingredients.html" title="Read more" class="read-more" >learn more<i class="fa fa-angle-double-right ml-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                <div class="card">
+                                    <div class="card-block block-3">
+                                        <h3 class="card-title">Needz With Native Honey & Shea Butter</h3>
+                                        <p class="card-text">Is formulated from the finest vegetable oils and nourishing Raw Shea BUTTER
+                                        known for its amazing skin healing properties and commonly used in cosmetics and as unequalled skin moisturizer
+                                        with anti-aging properties. Cleanses, soothes, protects and nourishes your skin with natural vitamins.
+                                        </p>
+                                        <a href="ingredients.html" title="Read more" class="read-more" >learn more<i class="fa fa-angle-double-right ml-2"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                <div class="card">
+                                    <div class="card-block block-5">
+                                        <h3 class="card-title">Overview of Our Best African Black Soap</h3>
+                                        <p class="card-text">Here’s an overview of our other core benefits of using our pure natural African black soap, along with their benefits: <br/>Cocoa Pods – Rich in antioxidants.<br/><strong>Natural Skin Cleanser</strong>: Due to the presence of shea butter and other moisturizers in African black soap, it will clean your face and body without stripping oils from the skin.
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <div class="card">
+                                        <div class="card-block block-5">
+                                            <h3 class="card-title">Other benefit</h3>
+                                            <p class="card-text">Here’s an overview of our other core benefits of using our pure natural African black soap, along with their benefits: <br/>Cocoa Pods – Rich in antioxidants.<br/><strong>Natural Skin Cleanser</strong>: Due to the presence of shea butter and other moisturizers in African black soap, it will clean your face and body without stripping oils from the skin.
+                                                <br/>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                </div>
+            </section>
+
+        <footer class="footer">
+                <div class="footer-body">
+                        <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="footer-section">
+                                <h4 class="footer-section-title">About us</h4><!-- /.footer-section-title -->
+    
+                                <div class="footer-section-body">
+                                    <p style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                                    1px;font-size: 18px; font-weight: 500;
+                                    text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                                    normal;font-variant:normal;text-transform:none;">At Alcanah, we believe that a good product comes
+                                    from using the best ingredients that are safe and benefit proven to your skin</p>
+                                </div><!-- /.footer-section-body -->
+                            </div><!-- /.footer-section -->
+                        </div><!-- /.columns large-3 medium-12 -->
+    
+                        <div class="col-md-3">
+                            <div class="footer-section">
+                                <h4 class="footer-section-title">Quick Links</h4><!-- /.footer-section-title -->
+                                <div class="footer-section-body">
+                                    <ul class="list-links" style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                                    1px;font-size: 16px; font-weight: 500;
+                                    text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                                    normal;font-variant:normal;text-transform:none;">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="products.html">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="ingredients.html">Ingredients</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="contact.php">Contact Us</a>
+                                        </li>
+    
+    
+                                    </ul>
+                                </div><!-- /.footer-section-body -->
+                            </div><!-- /.footer-section -->
+                        </div><!-- /.columns large-3 medium-12 -->
+    
+                        <div class="col-md-3">
+                                <div class="footer-section">
+                                    <h4 class="footer-section-title">More</h4><!-- /.footer-section-title -->
+                                    <div class="footer-section-body">
+                                        <ul class="list-links" style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                                        1px;font-size: 16px; font-weight: 500;
+                                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                                        normal;font-variant:normal;text-transform:none;">
+                                            <li>
+                                                <a href="shops.html">Distributors</a>
+                                            </li>
+        
+                                            <li>
+                                                <a href="privacy.html">Privacy Policy</a>
+                                            </li>
+    
+                                            <li>
+                                                <a href="faq.html">FAQ</a>
+                                            </li>
+                                            <li>
+                                              <a href="skincare.html">SkinCare Tips</a>
+                                            </li>
+                                            <li>
+                                                <a href="career.html">Career</a>
+                                            </li>
+    
+                                        </ul>
+                                    </div><!-- /.footer-section-body -->
+                                </div><!-- /.footer-section -->
+                            </div><!-- /.columns large-3 medium-12 -->
+    
+                        <div class="col-md-3">
+                            <div class="footer-section">
+                                <h4 class="footer-section-title">Contact Us</h4>
+    
+                                <div class="footer-section-body" >
+                                    <p style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                                    1px;font-size: 16px; font-weight: 500;
+                                    text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                                    normal;font-variant:normal;text-transform:none;"><b>Address:</b> Plot 5,Block K,Oluyole Industrial Estate, Ibadan,Oyo State</p>
+    
+                                    <div class="footer-contacts">
+                                        <p style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                                        1px;font-size: 16px; font-weight: 500;
+                                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                                        normal;font-variant:normal;text-transform:none;">
+                                            <b>
+                                                <i class="fa fa-phone"></i> Phone:
+                                            </b>
+    
+                                            0907 030 6962
+                                        </p>
+    
+                                        <p style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+                                        1px;font-size: 16px; font-weight: 500;
+                                        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+                                        normal;font-variant:normal;text-transform:none;">
+                                            <b>
+                                                <i class="fa fa-envelope-o"></i> Email:
+                                            </b>
+    
+                                            info@alcanah.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        <div class="bwt-footer-copyright">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-6 copyright" style="font-family:Abel-Regular; text-decoration: none;letter-spacing:
+        1px;font-size: 16px; font-weight: 500;
+        text-align:left; line-height:24px; letter-spacing:1px;font-style:
+        normal;font-variant:normal;text-transform:none;">
+        <div class="left-text">Copyright &copy; Alcanah Ltd 2018. All Rights Reserved</div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </footer>
+
+
+<script>
+jQuery(document).ready(function($) {
+
+$(window).load(function(){
+$('#preloader').fadeOut('slow',function(){$(this).remove();});
+ });
+});
+</script>
+
+<script>
+function moreLess(initiallyVisibleCharacters) {
+	var visibleCharacters = initiallyVisibleCharacters;
+	var paragraph = $(".text")
+	paragraph.each(function() {
+		var text = $(this).text();
+        var wholeText = text.slice(0, visibleCharacters) 
+        + "<span class='ellipsis'>... </span><a href='#' class='more'>MORE<i class='fa fa-arrow-circle-o-down' aria-hidden='true'></i></a>" + "<span style='display:none'>" + text.slice(visibleCharacters, text.length) + "<a href='#' class='less'> LESS<i class='fa fa-arrow-circle-o-up' aria-hidden='true'></i></a></span>"
+
+		if (text.length < visibleCharacters) {
+			return
+		} else {
+			$(this).html(wholeText)
+		}
+	});
+	$(".more").click(function(e) {
+		e.preventDefault();
+		$(this).hide().prev().hide();
+		$(this).next().show();
+	});
+	$(".less").click(function(e) {
+		e.preventDefault();
+		$(this).parent().hide().prev().show().prev().show();
+	});
+};
+
+moreLess(300);
+</script>
+
+<script>
+    $(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+    </script>
+
+    <!-- jQuery -->
+    <script src="jss/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="jss/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="jss/jquery.waypoints.min.js"></script>
+    <!-- Lightbox JavaScript-->
+    <script src="jss/jquery.lightbox.min.js"></script>
+    <!-- Carousel -->
+    <script src="jss/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="jss/jquery.countTo.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="jss/script.js"></script>
+    <script src="jss/preloader.js"></script>
+    <script src="js/date.js"></script>
+
+    <!-- OFFLINE Alcanah LIVE CHAT API NOT CONNECTED ONLLINE NOW-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5a8535a04b401e45400cf237/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+        <!--End of SCRIPT CODE-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</body>
+
+</html>
